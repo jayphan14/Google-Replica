@@ -1,0 +1,85 @@
+li, form{
+    font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color:#222;
+}
+.nav ul li:last-child{
+    color:#f8f9fa;
+    background-color: #1a73e8;
+    padding: 10px;
+    border-radius: 5px;
+}
+.nav ul li{
+    display:inline-block;
+    width: 13%;
+    white-space: nowrap;
+    padding: 10px 50px;
+    margin: 0px 0px;
+    text-align:center;
+}
+
+.searchBar{
+    text-align: center;
+    padding:30px 10px;
+    
+}
+.searchBar input{
+    margin-top:15px;
+}
+.searchBar #images{
+    width:80%;
+    color: #4285f4;
+    font-size: 30px;
+    font-family: roboto-regular, arial, sans-serif;
+    text-align:right;
+    position: relative;
+    top: 0;
+    
+
+}
+.searchBar img{
+    width:600px;
+    height:200px;
+    object-fit: cover;
+    position: relative;
+}
+#text{
+    padding:0px 20px;
+    width : 60%;
+    height: 30px;
+    border-radius: 25px;
+    border-color:#f8f9fa
+    
+}
+
+.submit{
+    display: inline-block;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    color: #3c4043;
+    padding: 10px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+
+footer{
+    position: fixed;
+    bottom:0;
+    background-color:#f2f2f2 ;
+    min-width: 100%;
+}
+footer li{
+    
+    display:inline-block;
+    width:15%;
+    white-space: nowrap;
+    padding: 15px 0px;
+    
+    text-align:center;
+    color: #70757a;
+}

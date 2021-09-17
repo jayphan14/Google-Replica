@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Advanced Search</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+        <nav class="nav"> 
+          <ul>
+              <li><a href="index.html">Google Search</a></li>
+              <li><a href="imageSearch.html">Image Search</a></li>
+              <li><a href="advancedSearch.html">Advanced Search</a></li>
+              <li><a href="https://www.google.com/gmail/about/#">Gmail</a></li>
+              <li id="signIn"><a href="https://accounts.google.com/signin/v2/identifier?hl=en&passive=true&continue=https%3A%2F%2Fwww.google.com%2F%3Fsafe%3Dactive%26ssui%3Don&ec=GAZAmgQ&flowName=GlifWebSignIn&flowEntry=ServiceLogin">Sign In</a></li>
+              
+          </ul>
+
+      </nav>
+      <section class="ASlogo">
+          <img src="logo.png" alt="Google">
+          <p>Advanced Search</p>
+          <hr>
+      </section>
+
+      <main class="advancedSearch">
+      <h1>
+        Find pages with...
+      </h1>
+      <br>
+
+      <div class="AScontainer">
+        <form action="https://google.com/search">
+          <div class= "ASchild">
+            <div class="space">
+              <label class ="label" for="as_q">all these words: </label><br>
+            </div>
+            <div class="space">
+              <label for="as_epq">this exact word or phrase: </label><br>
+            </div>
+
+            <div class="space">
+              <label for="as_oq">any of these words: </label><br>
+            </div>
+
+            <div class="space">
+              <label for="as_eq">none of these words: </label><br>
+            </div>
+          </div>
+          
+          <div class="ASchild">
+              <input class="input" type="text" name="as_q"><br>
+              <input type="text" name="as_epq"><br>             
+              <input type="text" name="as_oq"><br>            
+              <input type="text" name="as_eq"><br>           
+             
+          </div>
+          <br>
+          <input class="ASsubmit" type="submit" >
+        </form>
+      </div>
+
+
+      </main>
+      <footer>
+        <li>Advertising</li>
+        <li>Business</li>
+        <li>How Search Works</li>
+        <li>Privacy</li>
+        <li>Terms</li>
+        <li>Settings</li>
+      </footer>
+  </body>
+</html>

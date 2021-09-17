@@ -1,0 +1,189 @@
+li, form, label{
+    font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color:#222;
+}
+.nav ul li:last-child{
+    color:#f8f9fa;
+    background-color: #1a73e8;
+    padding: 10px;
+    border-radius: 5px;
+}
+.nav ul li{
+    display:inline-block;
+    width: 13%;
+    white-space: nowrap;
+    padding: 10px 50px;
+    margin: 0px 0px;
+    text-align:center;
+}
+
+.searchBar{
+    text-align: center;
+    padding:30px 10px;
+    
+}
+.searchBar input{
+    margin-top:15px;
+}
+.searchBar #images{
+    width:80%;
+    color: #4285f4;
+    font-size: 30px;
+    font-family: roboto-regular, arial, sans-serif;
+    text-align:right;
+    position: relative;
+    top: 0;
+    
+
+}
+.searchBar img{
+    width:600px;
+    height:200px;
+    object-fit: cover;
+    position: relative;
+}
+#text{
+    padding:0px 20px;
+    width : 60%;
+    height: 30px;
+    border-radius: 25px;
+    border-color:#f8f9fa
+    
+}
+
+.submit{
+    display: inline-block;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    color: #3c4043;
+    padding: 10px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+
+footer{
+    position: fixed;
+    bottom:0;
+    background-color:#f2f2f2 ;
+    min-width: 100%;
+}
+footer li{
+    
+    display:inline-block;
+    width:15%;
+    white-space: nowrap;
+    padding: 15px 0px;
+    
+    text-align:center;
+    color: #70757a;
+}
+
+
+/*Google advances search*/
+.AScontainer {
+    padding: 20px;
+}
+
+.ASchild {
+    width:30%;
+    float:left;
+}  
+
+.ASchild .space{
+    padding: 6px 20px;
+}
+.ASchild input{
+    width:600px;
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+}
+
+
+
+.ASsubmit{
+    margin-top:150px;
+    margin-left:150px;
+    display:inline;
+    padding:5px 20px;
+}
+
+
+.advancedSearch h1{
+    font-family: arial,sans-serif;
+    font-size:20px;
+    font-weight: 500;
+    margin: 0px 35px;
+}
+
+.advancedSearch{
+    margin:5% 0 ;
+}
+
+
+.ASlogo img{
+    width:100px;
+    height:40px;
+    object-fit: cover;
+    position: relative;
+}
+.ASlogo {
+    color: #d93025;
+    font-size: 20px;
+    font-weight:500px;
+    margin: 25px 35px;
+    font-family: arial,sans-serif;
+}
+
+/*HOVER*/
+.nav ul li a:hover{
+    text-decoration: underline;
+    color:#222;
+}
+
+
+.summit input[type="submit"]:hover{
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+.ASsubmit:hover{
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+.submit:hover{
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    display: inline-block;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    color: #202124;
+    padding: 10px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+footer li:hover{
+    
+    display:inline-block;
+    width:15%;
+    white-space: nowrap;
+    padding: 15px 0px;
+    
+    text-align:center;
+    text-decoration: underline;
+    color: #70757a;
+}
